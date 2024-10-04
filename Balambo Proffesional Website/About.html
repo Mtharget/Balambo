@@ -23,10 +23,10 @@
             position: sticky;
             top: 0;
             z-index: 1000;
-                        margin-top: 100px;
-                        margin-left: 4%;
-                        font-size: 20px;
-                        color: #000;
+            margin-top: 100px;
+            margin-left: 4%;
+            font-size: 20px;
+            color: #000;
 
         }
 
@@ -64,7 +64,8 @@
             animation: slideIn 1s ease-in forwards;
             /* Slide-in animation */
         }
-        .about-section h1{
+
+        .about-section h1 {
             text-align: left;
         }
 
@@ -73,115 +74,106 @@
             line-height: 1.6;
             animation: fadeIn 1s ease-in forwards;
         }
-      /* Footer Styles */
-       /* Footer Styles */
-.footer {
-    background-color: #000; /* Dark background */
-    color: #fff; /* Light text color */
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-}
 
-.footer-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px; /* Added padding for better spacing */
-}
+        /* Footer Styles */
+        /* Footer Styles */
+        .footer {
+            background-color: #000;
+            /* Dark background */
+            color: #fff;
+            /* Light text color */
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
 
-.footer-logo img {
-    width: 150px; /* Adjust size as needed */
-    margin-bottom: 15px;
-}
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            /* Added padding for better spacing */
+        }
 
-.footer h2 {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
+        .footer-logo img {
+            width: 150px;
+            /* Adjust size as needed */
+            margin-bottom: 15px;
+        }
 
-.footer p {
-    margin: 5px 0 15px;
-}
+        .footer h2 {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
 
-.footer-bottom {
-    display: flex;
-    justify-content: space-between; /* Space between social media and useful links */
-    align-items: center; /* Center align items vertically */
-    margin: 15px 0; /* Margin between the content and footer bottom */
-}
-.useful-information {
-    text-align: right; /* Align text to the right */
-}
+        .footer p {
+            margin: 5px 0 15px;
+        }
 
-.useful-information h4 {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.useful-information ul {
-    list-style: none;
-    padding: 0;
-}
-
-.useful-information li {
-    margin: 5px 0;
-}
-
-.useful-information a {
-    text-decoration: none;
-    color: #fff; /* Default link color */
-    transition: color 0.6s ease;
-    margin: 2px;
-}
-
-
-
-
-.useful-links {
-    text-align: right; /* Align text to the right */
-}
-
-.useful-links h4 {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.useful-links ul {
-    list-style: none;
-    padding: 0;
-}
-
-.useful-links li {
-    margin: 5px 0;
-}
-
-.useful-links a {
-    text-decoration: none;
-    color: #fff; /* Default link color */
-    transition: color 0.6s ease;
-    margin: 2px;
-}
-
-.useful-links a:hover {
-    color: rgb(3, 3, 202); /* Change link color on hover */
-}
-
-.social-media {
-    margin-right: auto; /* Space from the right end */
-}
-
-.social-icon {
-    text-decoration: none;
-    color: #fff; /* Default icon color */
-    margin: 0 10px;
-    font-size: 24px;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.social-icon:hover {
-    color: rgb(3, 3, 202); /* Change icon color on hover */
-    transform: scale(1.2); /* Scale up icon on hover */
-}
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            /* Space between social media and useful links */
+            align-items: center;
+            /* Center align items vertically */
+            margin: 15px 0;
+            /* Margin between the content and footer bottom */
+        }
+    .useful-information {
+            text-align: right;
+        }
+    
+        .useful-information h4 {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+    
+        .useful-information ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .useful-information li {
+            margin: 5px 0;
+        }
+    
+        .useful-information a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.6s ease;
+            margin: 2px;
+        }
+    
+        .social-media {
+            margin-right: auto;
+        }
+    
+        .social-icon {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+    
+        .social-icon:hover {
+            color: rgb(3, 3, 202);
+            transform: scale(1.2);
+        }
+    
+        .useful-links a {
+            text-decoration: none;
+            color: #fff;
+            /* Default link color */
+            transition: color 0.6s ease;
+            margin: 2px;
+        }
+    
+        .useful-links a:hover {
+            color: rgb(3, 3, 202);
+            /* Change link color on hover */
+        }
+    
+      
 
         @keyframes fadeIn {
             from {
@@ -206,23 +198,25 @@
         }
 
 
-        
-   /* Loader styles */
-         .loader {
-            display: none; /* Hidden by default */
+
+        /* Loader styles */
+        .loader {
+            display: none;
+            /* Hidden by default */
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
             background-color: rgba(255, 255, 255, 0.8);
-            z-index: 9999; /* Ensure it’s on top */
+            z-index: 9999;
+            /* Ensure it’s on top */
             justify-content: center;
             align-items: center;
             color: black;
         }
 
-       
+
         @keyframes spin {
             0% {
                 transform: rotate(0deg);
@@ -268,68 +262,60 @@
                 our carbon footprint and supporting local farmers. Our bar features a variety of carefully selected
                 wines and handcrafted cocktails, perfect for pairing with your meal.</p>
             <p>We look forward to welcoming you to Balambo Restaurant & Bar, where great food and good times await!</p>
+            
         </div>
 
         <!-- Additional Useful Information Section -->
         <div class="useful-information">
             <h4>Balambo Bar And Grill</h4>
             <ul>
-                <li ><strong>Address:</strong> 123 Balambo St, Food City</li>
+                <li><strong>Address:</strong> 123 Balambo St, Food City</li>
                 <li><strong>Phone:</strong> (123) 456-7890</li>
                 <li><strong>Email:</strong> info@balambo.com</li>
                 <li><strong>Opening Hours:</strong> Mon-Sun: 11 AM - 11 PM</li>
             </ul>
         </div>
     </div>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="logo.jpg" alt="Balambo Logo"> <!-- Replace with your logo path -->
-            </div>
-            <h2>Balambo Restaurant and Bar</h2>
-            <p>Experience the vibrant atmosphere and tantalizing flavors. Join us for an unforgettable dining
-                experience.
-            </p>
-    
-    
-    
-    
-          
-            <div class="useful-links">
-                <h4>Balambo Bar And Grill</h4>
-                <ul>
-                    <a href="#menu" onclick="showLoader(event)">Menu</a>
-                    <a href="#reservations" onclick="showLoader(event)">Reservations</a>
-                    <a href="About.html" onclick="showLoader(event)">About Us</a>
-                    <a href="#contact" onclick="showLoader(event)">Contact</a>
-                    <a href="#events" onclick="showLoader(event)">Events</a>
-                </ul>
-            </div>
-            <div class="social-media">
-                <a href="https://www.facebook.com/yourpage" class="social-icon facebook" title="Facebook" target="_blank"
-                    onclick="showLoader(event)">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/yourprofile" class="social-icon instagram" title="Instagram"
-                    target="_blank" onclick="showLoader(event)">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://twitter.com/yourprofile" class="social-icon twitter" title="Twitter" target="_blank"
-                    onclick="showLoader(event)">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/yourprofile" class="social-icon linkedin" title="LinkedIn"
-                    target="_blank" onclick="showLoader(event)">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </div>
-    
-            <p>&copy; 2024 Balambo Restaurant and Bar. All rights reserved.</p>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo.jpg" alt="Balambo Logo">
         </div>
-    
-    </footer>
+        <h2>Balambo Restaurant and Bar</h2>
+        <p>Experience the vibrant atmosphere and tantalizing flavors. Join us for an unforgettable dining experience.
+        </p>
+
+
+        <div class="useful-links">
+            <h4>Balambo Bar And Grill</h4>
+            <ul>
+                <a href="#menu" onclick="showLoader(event)">Menu</a>
+                <a href="#reservations" onclick="showLoader(event)">Reservations</a>
+                <a href="#about" onclick="showLoader(event)">About Us</a>
+                <a href="#contact" onclick="showLoader(event)">Contact</a>
+                <a href="#events" onclick="showLoader(event)">Events</a>
+            </ul>
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com" class="social-icon" title="Facebook" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" class="social-icon" title="Instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com" class="social-icon" title="Twitter" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://linkedin.com" class="social-icon" title="LinkedIn" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+
+        <p>&copy; 2024 Balambo Restaurant and Bar. All rights reserved.</p>
+    </div>
+</footer>
+
 
 
     <script>
